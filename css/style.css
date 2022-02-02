@@ -63,10 +63,8 @@ nav{
 .marker, .basket{
 	position: relative;
 	font-size: 12px;
-	font-weight: 400;
 	color: #5b5da8;
 	text-decoration: none;
-	padding-left: 40px;
 }
 .marker:hover, .basket:hover{
    text-decoration: underline;
@@ -75,13 +73,12 @@ nav{
 .marker::before{
 	content: url("../image/header/heart_marker.png");
 	position: absolute;
-	left: 0;
-	
+	left: 5%;	
 }
 .basket::before{
 	content: url("../image/header/basket.png");
 	position: absolute;
-	left: 0;
+	left: 5%;
 }
 .header-bottom{
 	margin-top: 10px;
@@ -145,7 +142,7 @@ input[type="search"]{
 }
 .phone-number{
 	line-height: 1em;
-	padding: 0 0 20px 0;
+	font-size: 14px;
 }
 .phone-number a{
 	display: block;
@@ -197,9 +194,6 @@ h1{
 	position: relative;
 	z-index: 1;
 }
-.guarantees{
-	margin: 60px 0 0;
-}
 .guarantees-list .guarantees-quality, .guarantees-success{
 	border: 14px solid rgb(192, 193, 197, 0.12);
 	position: relative;
@@ -249,10 +243,6 @@ h2 span::after{
 	font-size: 14px;
 	color: #868686;
 	margin: 45px 0 0;
-}
-.sale{
-	margin: 85px 0 50px;
-	padding: 0;
 }
 .week-sale{
 	background-image: url("../image/sale/sale_img_1.jpg");
@@ -304,9 +294,6 @@ h2 span::after{
 	margin: 0;
 	padding: 0 10px ;
 }
-.bestseller{
-	margin-top: 100px;
-}
 h3 span{
 	position: relative;
 	font-size: 36px;
@@ -338,11 +325,12 @@ h3::before{
 	border: 14px solid rgb(205, 205, 205, 0.1);
 	box-sizing: border-box;
 }
-.card-title{
+.card-title a{
 	font-size: 14px;
 	line-height: 1.2em;
 	font-weight: 700;
 	color: #5b5da8;
+	text-decoration: none;
 }
 .card-img-wrapper{
 	margin: 0 auto;
@@ -352,7 +340,8 @@ h3::before{
 .rating-area:not(:checked) > input {
 	display: none;
 }
-.rating-area:not(:checked) > label {	
+.rating-area:not(:checked) > label {
+	margin: 0;	
 	padding: 0;
 	cursor: pointer;
 	font-size: 25px;
@@ -364,7 +353,6 @@ h3::before{
 }
 .rating-area > input:checked ~ label {
 	color: gold;
-	
 }
 .rating-area:not(:checked) > label:hover,
 .rating-area:not(:checked) > label:hover ~ label {
@@ -376,14 +364,10 @@ h3::before{
 .rating-area > input:checked ~ label:hover ~ label,
 .rating-area > label:hover ~ input:checked ~ label {
 	color: gold;
-	
 }
 .rate-area > label:active {
 	position: relative;
-
 }
-
-
 .card-text{
 	font-size: 24px;
 	line-height: 1.2em;
@@ -426,9 +410,49 @@ input[type="number"] {
 	border: none;
 	border-radius: 10px;
 }
-
-
-
+.novelties-title::before{
+	content: url("../image/novelties/novelties_star_title.png");
+	position: absolute;
+	bottom: 0%;
+	left: 50%;
+	transform: translate(-50%);
+	opacity: 0.5;
+	z-index: -1;
+}
+.feedback{
+	background-color: #c5b3d8;
+	position: relative;
+}
+.feedback p{
+	font-size: 14px;
+	line-height: 1.2em;
+	font-style: italic;
+	color: #ffffff;
+}
+.carousel-inner{
+	position: relative;
+}
+.carousel-inner::after{
+	content: " ";
+	position: absolute;
+	width: 165px;
+	height: 121px;
+	border: 14px solid #ffffff;
+	opacity: 0.12;
+	top: 15%;
+	left: 50%;
+	transform: translate(-50%);
+}
+.carousel-control-prev, .carousel-control-next{
+	position: absolute;
+	bottom: -100%;
+}
+.carousel-control-prev{
+	left: 35%;
+}
+.carousel-control-next{
+	right: 35%;
+}
 
 
 
