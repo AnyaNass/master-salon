@@ -11,6 +11,9 @@ img{
 	flex-direction: column;
 	justify-content: space-between;
 }
+.navbar-light{
+	background-color: #f5f2f8;
+}
 main{
 	flex: 1 1 auto;
 }
@@ -96,7 +99,6 @@ nav{
 	margin-right: 15px;
 	padding: 0;
 }
-
 .btn-check:focus + .btn, .btn:focus, .btn:hover{
 	box-shadow: none;
 	color: #ff5fb6;
