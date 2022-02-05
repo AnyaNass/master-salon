@@ -16,11 +16,19 @@ img{
 }
 .navbar-toggler{
 	border: none;
-	color: #5b5da8  !important;
+}
+svg{
+	color: #5b5da8;
 }
 .navbar-toggler:focus{
-	border: 1px solid #5b5da8;
-	box-shadow: none;
+	box-shadow: 2px 1px 5px #5b5da8;
+}
+.navbar-collapse{
+	overflow: scroll;
+	height: 90vh;
+}
+ul{
+	list-style-type: none;
 }
 main{
 	flex: 1 1 auto;
