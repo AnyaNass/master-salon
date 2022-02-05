@@ -10,6 +10,7 @@ img{
    display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	overflow: hidden;
 }
 .navbar-light{
 	background-color: #f5f2f8;
@@ -29,6 +30,15 @@ svg{
 }
 ul{
 	list-style-type: none;
+}
+.contacts{
+	padding: 0;
+
+}
+.contacts li a, .contacts li p{
+	color: #5b5da8;
+	text-decoration: none;
+	display: block;
 }
 main{
 	flex: 1 1 auto;
@@ -212,6 +222,9 @@ h1{
 	position: relative;
 	z-index: 1;
 }
+.guarantees{
+	margin-top: 80px;
+}
 .guarantees-list .guarantees-quality, .guarantees-success{
 	border: 14px solid rgb(192, 193, 197, 0.12);
 	position: relative;
@@ -261,6 +274,9 @@ h2 span::after{
 	font-size: 14px;
 	color: #868686;
 	margin: 45px 0 0;
+}
+.sale{
+	margin-top: 80px;
 }
 .week-sale{
 	background-image: url("../image/sale/sale_img_1.jpg");
@@ -492,6 +508,82 @@ input[type="number"] {
 }
 .about-us-next{
 	right: 15%;
+}
+.footer{
+	background: #765598;
+	width: 100vw;
+}
+.footer-top ul{
+	margin: 50px 0 0;
+}
+.footer-top ul li{
+	margin: 20px 0 0;
+}
+.footer-top ul li a{
+	font-size: 14px;
+	line-height: 1.2em;
+	color: #ffffff;
+	text-decoration: none;
+}
+.footer-top ul li a:hover{
+	text-decoration: underline;
+}
+h5 span{
+	position: relative;
+	font-size: 18px;
+	line-height: 1.2em;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+h5 span::after{
+	content: " ";
+	position: absolute;
+	height: 6px;
+	width: 100%;
+	background-image: linear-gradient(90.0deg, #ffc3e4 0%, #f8eae1 50%, #f7f7f7 100%);
+	top: 110%;
+	left: 0%;
+}
+.contacts li{
+	padding-left: 50px ;
+	position: relative;
+}
+.contacts li{
+	position: relative;
+}
+.address::before{
+	content: url('../image/contacts/map_pointer.png');
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.imail{
+	margin-top: 25px;
+}
+.imail::before{
+	content: url('../image/contacts/email.png');
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.phone-numbers{
+	margin-top: 25px;
+}
+.phone-numbers::before{
+	content: url('../image/contacts/smartphone.png');
+	position: absolute;
+	left: 0;
+	top: 20%;
+}
+.clock{
+	margin-top: 25px;
+}
+.clock::before{
+	content: url('../image/contacts/alarm_clock.png');
+	position: absolute;
+	left: 0;
+	top: 0;
 }
 @media (min-width:768px) {
 	.feedback-slider{
