@@ -1,5 +1,6 @@
 $('.slider-slick').slick({
 	mobileFirst: true,
+	arrows: false,
 	slidesToShow: 1,
 	slidesToScroll: 1,
 	responsive: [
