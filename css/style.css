@@ -28,17 +28,25 @@ svg{
 	overflow: scroll;
 	height: 90vh;
 }
+.accordion-button:not(.collapsed){
+	color: black;
+	background-color: white;
+}
+.accordion-button:focus{
+	border-bottom: 1px solid #5b5da8;
+	box-shadow: none;
+}
 ul{
 	list-style-type: none;
 }
-.contacts{
+.contact-mobile{
 	padding: 0;
-
 }
-.contacts li a, .contacts li p{
+.contact-mobile li a, .contact-mobile li{
 	color: #5b5da8;
 	text-decoration: none;
 	display: block;
+	padding: 0;
 }
 main{
 	flex: 1 1 auto;
@@ -518,6 +526,9 @@ input[type="number"] {
 }
 .footer-top ul li{
 	margin: 20px 0 0;
+	font-size: 14px;
+	line-height: 1.2em;
+	color: #ffffff;
 }
 .footer-top ul li a{
 	font-size: 14px;
@@ -578,6 +589,7 @@ h5 span::after{
 }
 .clock{
 	margin-top: 25px;
+	width: 160px;
 }
 .clock::before{
 	content: url('../image/contacts/alarm_clock.png');
