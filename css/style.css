@@ -691,10 +691,10 @@ h5 span::after{
 		background-color: #765598;	}
 	h1{
 		font-size: 30px;
-		width: 50%;
+		width: 75%;
 	}
 	.banner::after{
-		width: 45%;
+		width: 60%;
 	}
 	.footer-bottom-content p{
 		color: #5b5da8;
