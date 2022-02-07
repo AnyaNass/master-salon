@@ -163,11 +163,6 @@ nav{
 	box-shadow: none;
 	color: #ff5fb6;
 }
-/*.dropdown-btn::after{
-	content: url("../image/header/down.png");
-	position: absolute;
-	right: 0%;
-}*/
 .dropdown-menu{
 	width: 300px;
 	background-color: rgb(255, 255, 255, 0.9);
@@ -232,7 +227,7 @@ main{
 	background-color: #b992d9;
 	opacity: 0.5;
 	height: 100%;
-	width: 350px;
+	width: 30%;
 	top: 0;
 	right: 0;
 	border-top-left-radius:  20% 55% ;
@@ -240,7 +235,7 @@ main{
 }
 h1{
 	display: inline-block;
-	width: 370px;
+	width: 40%;
 	padding: 60px 30px 60px 0;
 	font-size: 42px;
 	font-weight: 400;
@@ -693,8 +688,13 @@ h5 span::after{
 		display: none;
 	}
 	.footer-bottom{
-		background-color: #765598;
-
+		background-color: #765598;	}
+	h1{
+		font-size: 30px;
+		width: 50%;
+	}
+	.banner::after{
+		width: 45%;
 	}
 	.footer-bottom-content p{
 		color: #5b5da8;
