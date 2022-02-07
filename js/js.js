@@ -1,3 +1,11 @@
+$(".btn").click(function(){
+	$(".input").toggleClass("active").focus;
+	$(this).toggleClass("animate");
+	$(".input").val("");
+ });
+
+
+
 $('.slider-slick').slick({
 	mobileFirst: true,
 	arrows: false,
@@ -10,3 +18,4 @@ $('.slider-slick').slick({
 		}
 	]
 });
+
