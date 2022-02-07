@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&display=swap');
 
+@font-face {
+	font-family: "Century Gothic";
+	src: url("../fonts/centurygothic.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Century Gothic";
+	src: url("../fonts/centurygothic_bold.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+}
+body{
+	font-family: "Century Gothic";
+}
 img{
 	object-fit: cover;
 	width: 100%;
@@ -508,6 +523,19 @@ input[type="number"] {
 }
 .about-us{
 	padding: 80px 0;
+	position: relative;
+}
+.about-us::before{
+	content: url('../image/about-us/Sea\ Salt\ Bowl\ copy.png');
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.about-us::after{
+	content: url('../image/about-us/White\ Vase.png');
+	position: absolute;
+	right: 0;
+	top: 10%;
 }
 .about-us-title::before{
 	content: url("../image/about-us/lotos.png");
@@ -525,8 +553,21 @@ input[type="number"] {
 	right: 15%;
 }
 .footer{
-	background: #765598;
 	width: 100vw;
+}
+.footer-top{
+	position: relative;
+}
+.footer-top::before{
+	content: " ";
+	position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 50%;
+   transform: translateX(-50%);
+   width: 100vw;
+   background: #765598;  
+   z-index: -1;
 }
 .footer-top ul{
 	margin: 50px 0 0;
@@ -631,7 +672,12 @@ h5 span::after{
    top: 0;
 	left: 0;
 }
-
+.footer-bottom{
+	background-color: #fff;
+}
+.footer-bottom-content p{
+	color: #5b5da8;
+}
 @media (min-width:768px) {
 	.feedback-slider{
 		width: 40%;
@@ -639,6 +685,13 @@ h5 span::after{
 	.about-us-slider{
 		width: 50%;}
 }
-
+@media (max-width:767px){
+	.about-us::before{
+		display: none;
+	}
+	.about-us::after{
+		display: none;
+	}
+}
 
 
