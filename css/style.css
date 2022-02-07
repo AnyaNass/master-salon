@@ -692,6 +692,14 @@ h5 span::after{
 	.about-us::after{
 		display: none;
 	}
+	.footer-bottom{
+		background-color: #765598;
+
+	}
+	.footer-bottom-content p{
+		color: #5b5da8;
+		color: #fff;
+	}
 }
 
 
