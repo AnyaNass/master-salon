@@ -241,13 +241,12 @@ main{
 }
 .banner{
 	padding: 125px 0;
-	background-image: url("../image/banner/banner_main.jpg");
-	background-position: center;
+	background-position: 50% 50%;
 	background-size: cover;
 	background-repeat: no-repeat;
-	width: 100vw;
 	overflow: hidden;
 	position: relative;
+	height: 75vh;
 }
 .banner::after{
 	content: " ";
@@ -263,7 +262,7 @@ main{
 }
 h1{
 	display: inline-block;
-	width: 40%;
+	width: 30%;
 	padding: 60px 30px 60px 0;
 	font-size: 42px;
 	font-weight: 400;
@@ -343,7 +342,7 @@ h2 span::after{
 	background-position: center;
 	background-size: cover;	
 }
-.sale-text{
+.sale-text a{
 	background-color: #c5b3d8;
 	display: inline-block;
 	width: 230px;
@@ -353,24 +352,27 @@ h2 span::after{
 	text-transform: uppercase;
 	color: #ffffff;
 	margin: 0;
+	text-decoration: none;
+	line-height: 1;
 }
-.sale-text p{
+.sale-text a span{
 	font-size: 12px;
-	font-weight: 400;
+	text-decoration: none;
 	text-transform: none;
-	line-height: 0.5em;
 }
 .biggest-sale-text{
 	display: inline-block;
 	width: 280px;
 	margin: 0;
-	text-transform: uppercase;color: #707070;
+	text-transform: uppercase;
+	color: #707070;
 	font-size: 24px;
 }
-.sale-50{
+.sale-50 {
 	background-color: rgb(255, 255, 255, 0.7);
 	margin: 0;
 	padding: 0 10px;
+	display: block;
 }
 .sale-50 span{
 	font-size: 72px;
@@ -389,7 +391,7 @@ h2 span::after{
 	position: absolute;
 	z-index: 1;
 	height: 100%;
-	width: 40%;
+	width: 20%;
 	left: 0;
 	top: 0;
 	opacity: 0;
@@ -399,7 +401,7 @@ h2 span::after{
 	position: absolute;
 	z-index: 1;
 	height: 100%;
-	width: 40%;
+	width: 20%;
 	right: 0;
 	top: 0;
 	opacity: 0;
