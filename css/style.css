@@ -39,6 +39,33 @@ svg{
 .social-icon-phone svg{
 	color: #ff5fb6;
 }
+.modal-content{
+	border-radius: 10px;
+}
+.modal-backdrop{
+	position: relative;
+}
+.btn-modal{
+	border: 3px solid #ff5fb6;
+	border-radius: 10px;
+}
+.btn-modal:active{
+	background-color: hsl(327, 100%, 69%, 0.3);
+}
+.modal-sing-in input{
+	display: block;
+	width: 80%;
+	margin-bottom: 15px;
+	border: 1px solid #ff5fb6;
+	border-radius: 5px;
+}
+.modal-sing-in p{
+	font-size: 15px;
+}
+.modal-sing-in a{
+   color: #ff5fb6;
+	font-weight: 700;
+}
 .navbar-toggler:focus{
 	box-shadow: 2px 1px 5px #5b5da8;
 }
