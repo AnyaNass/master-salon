@@ -8,7 +8,7 @@ $(".btn").click(function(){
 
 $('.slider-slick').slick({
 	mobileFirst: true,
-	arrows: false,
+	arrows: true,
 	slidesToShow: 1,
 	slidesToScroll: 1,
 	responsive: [
@@ -18,4 +18,5 @@ $('.slider-slick').slick({
 		}
 	]
 });
+
 

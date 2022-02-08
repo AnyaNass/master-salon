@@ -353,6 +353,29 @@ h2 span::after{
 	margin: 0;
 	padding: 0 10px ;
 }
+.slider-slick{
+	position: relative;
+}
+.slick-prev{
+	background-color: red;
+	position: absolute;
+	z-index: 1;
+	height: 100%;
+	width: 40%;
+	left: 0;
+	top: 0;
+	opacity: 0;
+}
+.slick-next{
+	background-color: blue;
+	position: absolute;
+	z-index: 1;
+	height: 100%;
+	width: 40%;
+	right: 0;
+	top: 0;
+	opacity: 0;
+}
 h3 span{
 	position: relative;
 	font-size: 36px;
