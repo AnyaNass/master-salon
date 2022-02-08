@@ -21,14 +21,12 @@ $('.slider-slick').slick({
 
 
 var myInput = document.getElementById('myBasket')
-
-myModal.addEventListener('shown.bs.modal', function () {
+myBasket.addEventListener('shown.bs.modal', function () {
   myInput.focus()
 })
 
 var myInput = document.getElementById('singIn')
-
-myModal.addEventListener('shown.bs.modal', function () {
+singIn.addEventListener('shown.bs.modal', function () {
   myInput.focus()
 })
 
