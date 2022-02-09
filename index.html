@@ -63,19 +63,16 @@
 									d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
 							</svg>
 						</button>
-						<div class="modal fade" id="myBasket" tabindex="-1" aria-labelledby="exampleModalLabel"
+						<div class="modal fade" id="myBasket" tabindex="-1" aria-labelledby="basketModalLabel"
 							aria-hidden="true">
 							<div class="modal-dialog">
 								<div class="modal-content">
 									<div class="modal-header">
-										<h5 class="modal-title" id="exampleModalLabel">Корзина</h5>
+										<h5 class="modal-title" id="basketModalLabel">Корзина</h5>
 										<button type="button" class="btn-close" data-bs-dismiss="modal"
 											aria-label="Close"></button>
 									</div>
-									<div class="modal-body">
-										<ul>
-											<li></li>
-										</ul>
+									<div class="modal-body">...
 									</div>
 									<div class="modal-footer">
 										<button type="button" class="btn btn-modal">Купить</button>
@@ -93,19 +90,19 @@
 								<path d="M9 9a1 1 0 1 0 2 0 1 1 0 0 0-2 0z" />
 							</svg>
 						</button>
-						<div class="modal fade" id="singIn" tabindex="-1" aria-labelledby="exampleModalLabel"
+						<div class="modal fade" id="singIn" tabindex="-1" aria-labelledby="singInModalLabel"
 							aria-hidden="true">
 							<div class="modal-dialog">
 								<div class="modal-content">
 									<div class="modal-header">
-										<h5 class="modal-title" id="exampleModalLabel">Вход</h5>
+										<h5 class="modal-title" id="singInModalLabel">Вход</h5>
 										<button type="button" class="btn-close" data-bs-dismiss="modal"
 											aria-label="Close"></button>
 									</div>
 									<div class="modal-body modal-sing-in">
-									<input type="tel" placeholder="Ваш номер телефона" tabindex="1">
-									<input type="password" placeholder="Ваш пароль" tabindex="2">
-									<p>Если у вас еще нет аккаунта нажмите <a href="#">здесь</a></p>
+										<input type="tel" placeholder="Ваш номер телефона" tabindex="1">
+										<input type="password" placeholder="Ваш пароль" tabindex="2">
+										<p>Если у вас еще нет аккаунта нажмите <a href="#">здесь</a></p>
 									</div>
 									<div class="modal-footer">
 										<button type="button" class="btn btn-modal">Войти</button>
@@ -261,8 +258,8 @@
 				</div>
 				<form class="mobile-search input-group mb-3 ">
 					<input type="search" class="form-control" placeholder="Я ищу" aria-label="Recipient's username"
-						aria-describedby="button-addon2">
-					<button class="btn btn-outline-secondary search-btn" type="button" id="button-addon2"></button>
+						aria-describedby="button-addon3">
+					<button class="btn btn-outline-secondary search-btn" type="button" id="button-addon3"></button>
 				</form>
 			</div>
 			<div class="banner" style="background-image: url('image/banner/banner_main.jpg');">
@@ -308,7 +305,7 @@
 							<div class="text-start sale-text">
 								<a href="#">
 									акционное предложение
-								<span>Товары недели</span>
+									<span>Товары недели</span>
 								</a>
 							</div>
 						</div>
@@ -354,8 +351,7 @@
 									<label for="secondProduct">Кол-во
 										<input class="text-center" type="number" min="1" name="num" value="1" step="1"
 											id="secondProduct"></label>
-									<button href="#" class="btn btn-primary ms-5 ms-md-1 mt-md-1 card-btn"
-										type="submit">купить</button>
+									<button class="btn btn-primary ms-5 ms-md-1 mt-md-1 card-btn" type="submit">купить</button>
 								</form>
 							</div>
 						</div>
@@ -388,7 +384,7 @@
 									<label for="thirdProduct">Кол-во
 										<input class="text-center" type="number" min="1" name="num" value="1" step="1"
 											id="thirdProduct"></label>
-									<button href="#" class="btn btn-primary ms-5 ms-md-1 mt-md-1 card-btn"
+									<button class="btn btn-primary ms-5 ms-md-1 mt-md-1 card-btn"
 										type="submit">купить</button>
 								</form>
 							</div>
@@ -422,7 +418,7 @@
 									<label for="fourthProduct">Кол-во
 										<input class="text-center" type="number" min="1" name="num" value="1" step="1"
 											id="fourthProduct"></label>
-									<button href="#" class="btn btn-primary ms-5 ms-md-1 mt-md-1 card-btn"
+									<button class="btn btn-primary ms-5 ms-md-1 mt-md-1 card-btn"
 										type="submit">купить</button>
 								</form>
 							</div>
@@ -456,7 +452,7 @@
 									<label for="firstProduct">Кол-во
 										<input class="text-center" type="number" min="1" name="num" value="1" step="1"
 											id="firstProduct"></label>
-									<button href="#" class="btn btn-primary ms-5 ms-md-1 mt-md-1 card-btn"
+									<button class="btn btn-primary ms-5 ms-md-1 mt-md-1 card-btn"
 										type="submit">купить</button>
 								</form>
 							</div>
@@ -497,7 +493,7 @@
 									<label for="secondProductNovelties">Кол-во
 										<input class="text-center" type="number" min="1" name="num" value="1" step="1"
 											id="secondProductNovelties"></label>
-									<button href="#" class="btn btn-primary ms-5 ms-md-1 mt-md-1 card-btn"
+									<button class="btn btn-primary ms-5 ms-md-1 mt-md-1 card-btn"
 										type="submit">купить</button>
 								</form>
 							</div>
@@ -510,19 +506,19 @@
 								<a href="#"><img src="image/bestsellers/scisors.png" alt="scisors"></a>
 							</div>
 							<div class="rating-area d-block m-auto">
-								<input type="radio" id="star-5-2" name="rating" value="5">
+								<input type="radio" id="star-5-2" name="rating" value="5n">
 								<label for="star-5-2" title="Оценка «5»"></label>
 
-								<input type="radio" id="star-4-2" name="rating" value="4">
+								<input type="radio" id="star-4-2" name="rating" value="4n">
 								<label for="star-4-2" title="Оценка «4»"></label>
 
-								<input type="radio" id="star-3-2" name="rating" value="3">
+								<input type="radio" id="star-3-2" name="rating" value="3n">
 								<label for="star-3-2" title="Оценка «3»"></label>
 
-								<input type="radio" id="star-2-2" name="rating" value="2">
+								<input type="radio" id="star-2-2" name="rating" value="2n">
 								<label for="star-2-2" title="Оценка «2»"></label>
 
-								<input type="radio" id="star-1-2" name="rating" value="1">
+								<input type="radio" id="star-1-2" name="rating" value="1n">
 								<label for="star-1-2" title="Оценка «1»"></label>
 							</div>
 							<div class="card-body p-0">
@@ -531,7 +527,7 @@
 									<label for="thirdProductNovelties">Кол-во
 										<input class="text-center" type="number" min="1" name="num" value="1" step="1"
 											id="thirdProductNovelties"></label>
-									<button href="#" class="btn btn-primary ms-5 ms-md-1 mt-md-1 card-btn"
+									<button class="btn btn-primary ms-5 ms-md-1 mt-md-1 card-btn"
 										type="submit">купить</button>
 								</form>
 							</div>
