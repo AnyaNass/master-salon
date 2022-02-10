@@ -702,19 +702,19 @@ h5 span::after{
 .social{
 	position: relative;
 }
-.instagram:hover::after{
+.instagram a:hover::after{
 	content: url('../image/social-icons/instagram-pink.png');
 	position: absolute;
    top: 0;
 	left: 0;
 }
-.facebook:hover::after{
+.facebook a:hover::after{
 	content: url('../image/social-icons/facebook-pink.png');
 	position: absolute;
    top: 0;
 	left: 0;
 }
-.google:hover::after{
+.google a:hover::after{
 	content: url('../image/social-icons/google-pink.png');
 	position: absolute;
    top: 0;
