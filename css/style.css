@@ -733,6 +733,15 @@ h5 span::after{
 	.about-us-slider{
 		width: 50%;}
 }
+@media (max-width:991px){
+	h1{
+		font-size: 30px;
+		width: 70%;
+	}
+	.banner::after{
+		width: 60%;
+	}
+}
 @media (max-width:767px){
 	.about-us::before{
 		display: none;
