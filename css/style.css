@@ -39,7 +39,6 @@ svg{
 .social-icon-phone svg{
 	color: #ff5fb6;
 }
-
 .modal-content{
 	border-radius: 10px;
 }
@@ -71,7 +70,7 @@ svg{
 	box-shadow: 2px 1px 5px #5b5da8;
 }
 .navbar-collapse{
-	overflow: scroll;
+	overflow-y: auto;
 	height: 90vh;
 }
 .accordion-button:not(.collapsed){
@@ -275,7 +274,7 @@ h1{
 	z-index: 1;
 }
 .guarantees{
-	margin-top: 80px;
+	margin-top: 20px;
 }
 .guarantees-list .guarantees-quality, .guarantees-success{
 	border: 14px solid rgb(192, 193, 197, 0.12);
@@ -301,11 +300,11 @@ h1{
 }
 .guarantees-quality::before, .guarantees-servise::before, 
 .guarantees-success::before{
-	top: -15%;
+	top: 5%;
 	left: 5%;
 }
 h2 span{
-	font-size: 24px;
+	font-size: 20px;
 	line-height: 1.2em;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -328,19 +327,22 @@ h2 span::after{
 	margin: 45px 0 0;
 }
 .sale{
-	margin-top: 80px;
+	margin-top: 50px;
 }
 .week-sale{
-	background-image: url("../image/sale/sale_img_1.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	min-height: 300px;
 }
 .biggest-sale{
-	background-image: url("../image/sale/sale_img_2.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;	
+	background-size: cover;
+	min-height: 300px;	
+}
+.sale-text{
+	margin: 70px 0 0;
 }
 .sale-text a{
 	background-color: #c5b3d8;
@@ -361,18 +363,18 @@ h2 span::after{
 	text-transform: none;
 }
 .biggest-sale-text{
+	margin: 50px 0 0;
 	display: inline-block;
 	width: 280px;
-	margin: 0;
 	text-transform: uppercase;
 	color: #707070;
 	font-size: 24px;
 }
 .sale-50 {
 	background-color: rgb(255, 255, 255, 0.7);
-	margin: 0;
 	padding: 0 10px;
 	display: block;
+	margin: 0;
 }
 .sale-50 span{
 	font-size: 72px;
@@ -380,7 +382,6 @@ h2 span::after{
 .sale-spa{
 	background-color: rgb(255, 255, 255, 0.7);
 	display: inline-block;
-	margin: 0;
 	padding: 0 10px ;
 }
 .slider-slick{
@@ -390,8 +391,8 @@ h2 span::after{
 	background-color: red;
 	position: absolute;
 	z-index: 1;
-	height: 100%;
-	width: 20%;
+	height: 0;
+	width: 0;
 	left: 0;
 	top: 0;
 	opacity: 0;
@@ -400,8 +401,8 @@ h2 span::after{
 	background-color: blue;
 	position: absolute;
 	z-index: 1;
-	height: 100%;
-	width: 20%;
+	height: 0;
+	width: 0;
 	right: 0;
 	top: 0;
 	opacity: 0;
@@ -732,6 +733,19 @@ h5 span::after{
 	}
 	.about-us-slider{
 		width: 50%;}
+	.guarantees{
+		margin-top: 80px;
+	}
+	.guarantees-quality::before, .guarantees-servise::before, .guarantees-success::before {
+		top: -15%;
+		left: 5%;
+	 }
+	 h2{
+		font-size: 24px;
+	 }
+	 .sale{
+		margin-top: 80px;
+	 }
 }
 @media (max-width:991px){
 	h1{
@@ -739,7 +753,7 @@ h5 span::after{
 		width: 70%;
 	}
 	.banner::after{
-		width: 60%;
+		width: 65%;
 	}
 }
 @media (max-width:767px){
@@ -756,7 +770,7 @@ h5 span::after{
 		width: 75%;
 	}
 	.banner::after{
-		width: 60%;
+		width: 65%;
 	}
 	.footer-bottom-content p{
 		color: #5b5da8;

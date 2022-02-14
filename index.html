@@ -15,236 +15,238 @@
 
 <body>
 	<div class="wrapper">
-		<nav class="navbar navbar-expand-lg navbar-light fixed-top d-lg-none" aria-label="Tenth navbar example">
-			<div class="container-fluid d-flex">
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08"
-					aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
-					<span>
-						<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-							class="bi bi-menu-up" viewBox="0 0 16 16">
-							<path
-								d="M7.646 15.854a.5.5 0 0 0 .708 0L10.207 14H14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3.793l1.853 1.854zM1 9V6h14v3H1zm14 1v2a1 1 0 0 1-1 1h-3.793a1 1 0 0 0-.707.293l-1.5 1.5-1.5-1.5A1 1 0 0 0 5.793 13H2a1 1 0 0 1-1-1v-2h14zm0-5H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v2zM2 11.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 0-1h-8a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h6a.5.5 0 0 0 0-1h-6a.5.5 0 0 0-.5.5z" />
-						</svg>
-					</span>
-				</button>
-				<ul class="d-flex nav-icons">
-					<li class="pt-1">
-						<button type="button" class="btn px-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+		<header class="header">
+			<nav class="navbar navbar-expand-lg navbar-light fixed-top d-lg-none" aria-label="Tenth navbar example">
+				<div class="container-fluid d-flex">
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08"
+						aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+						<span>
 							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-								class="bi bi-heart" viewBox="0 0 16 16">
+								class="bi bi-menu-up" viewBox="0 0 16 16">
 								<path
-									d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+									d="M7.646 15.854a.5.5 0 0 0 .708 0L10.207 14H14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3.793l1.853 1.854zM1 9V6h14v3H1zm14 1v2a1 1 0 0 1-1 1h-3.793a1 1 0 0 0-.707.293l-1.5 1.5-1.5-1.5A1 1 0 0 0 5.793 13H2a1 1 0 0 1-1-1v-2h14zm0-5H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v2zM2 11.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 0-1h-8a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h6a.5.5 0 0 0 0-1h-6a.5.5 0 0 0-.5.5z" />
 							</svg>
-						</button>
-						<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-							aria-hidden="true">
-							<div class="modal-dialog">
-								<div class="modal-content">
-									<div class="modal-header">
-										<h5 class="modal-title" id="exampleModalLabel">Вам понравились</h5>
-										<button type="button" class="btn-close" data-bs-dismiss="modal"
-											aria-label="Close"></button>
+						</span>
+					</button>
+					<ul class="d-flex nav-icons">
+						<li class="pt-1">
+							<button type="button" class="btn px-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+								<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+									class="bi bi-heart" viewBox="0 0 16 16">
+									<path
+										d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+								</svg>
+							</button>
+							<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+								aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="exampleModalLabel">Вам понравились</h5>
+											<button type="button" class="btn-close" data-bs-dismiss="modal"
+												aria-label="Close"></button>
+										</div>
+										<div class="modal-body">
+											...
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-modal">В корзину</button>
+										</div>
 									</div>
-									<div class="modal-body">
-										...
+								</div>
+							</div>
+						</li>
+						<li class="ms-3 pt-1">
+							<button type="button" class="btn px-0" data-bs-toggle="modal" data-bs-target="#myBasket">
+								<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+									class="bi bi-bag" viewBox="0 0 16 16">
+									<path
+										d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+								</svg>
+							</button>
+							<div class="modal fade" id="myBasket" tabindex="-1" aria-labelledby="basketModalLabel"
+								aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="basketModalLabel">Корзина</h5>
+											<button type="button" class="btn-close" data-bs-dismiss="modal"
+												aria-label="Close"></button>
+										</div>
+										<div class="modal-body">...
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-modal">Купить</button>
+										</div>
 									</div>
-									<div class="modal-footer">
-										<button type="button" class="btn btn-modal">В корзину</button>
+								</div>
+							</div>
+						</li>
+						<li class="ms-3 pt-1">
+							<button type="button" class="btn px-0" data-bs-toggle="modal" data-bs-target="#singIn">
+								<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+									class="bi bi-door-closed" viewBox="0 0 16 16">
+									<path
+										d="M3 2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v13h1.5a.5.5 0 0 1 0 1h-13a.5.5 0 0 1 0-1H3V2zm1 13h8V2H4v13z" />
+									<path d="M9 9a1 1 0 1 0 2 0 1 1 0 0 0-2 0z" />
+								</svg>
+							</button>
+							<div class="modal fade" id="singIn" tabindex="-1" aria-labelledby="singInModalLabel"
+								aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="singInModalLabel">Вход</h5>
+											<button type="button" class="btn-close" data-bs-dismiss="modal"
+												aria-label="Close"></button>
+										</div>
+										<div class="modal-body modal-sing-in">
+											<input type="tel" placeholder="Ваш номер телефона" tabindex="1">
+											<input type="password" placeholder="Ваш пароль" tabindex="2">
+											<p>Если у вас еще нет аккаунта нажмите <a href="#">здесь</a></p>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-modal">Войти</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+						<div class="accordion" id="accordionPanelsStayOpenExample">
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="panelsStayOpen-headingOne">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+										data-bs-target="#flush-collapseOne" aria-expanded="false"
+										aria-controls="flush-collapseOne">
+										Каталог Товаров
+									</button>
+								</h2>
+								<div id="flush-collapseOne" class="accordion-collapse collapse"
+									aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+									<div class="accordion-body">
+										<ul>
+											<li><a class="dropdown-item" href="#">Маникюрные педикюрные принадлежности</a></li>
+											<li><a class="dropdown-item" href="#">Гель-лаки и наращивание ногтей</a></li>
+											<li><a class="dropdown-item" href="#">Парикмахерские инструменты и техника</a></li>
+											<li><a class="dropdown-item" href="#">Восковая депиляция и парафинотерапия</a></li>
+											<li><a class="dropdown-item" href="#">Наращивание ресниц, краска для бровей и
+													ресниц</a>
+											</li>
+											<li><a class="dropdown-item" href="#">Спецодежда и одноразовые принадлежности</a></li>
+											<li><a class="dropdown-item" href="#">Оборудование для салонов</a></li>
+											<li><a class="dropdown-item" href="#">Стерилизация инструментов</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+										data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+										aria-controls="panelsStayOpen-collapseTwo">
+										Покупателям
+									</button>
+								</h2>
+								<div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+									aria-labelledby="panelsStayOpen-headingTwo">
+									<div class="accordion-body">
+										<ul>
+											<li><a class="dropdown-item" href="#">Доставка и опалата</a></li>
+											<li><a class="dropdown-item" href="#">Сервис и гарантия</a></li>
+											<li><a class="dropdown-item" href="#">Программа лояльности</a></li>
+											<li><a class="dropdown-item" href="#">О нас</a></li>
+											<li><a class="dropdown-item" href="#">Контакты</a></li>
+										</ul>
 									</div>
 								</div>
 							</div>
 						</div>
-					</li>
-					<li class="ms-3 pt-1">
-						<button type="button" class="btn px-0" data-bs-toggle="modal" data-bs-target="#myBasket">
-							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-								class="bi bi-bag" viewBox="0 0 16 16">
-								<path
-									d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
-							</svg>
-						</button>
-						<div class="modal fade" id="myBasket" tabindex="-1" aria-labelledby="basketModalLabel"
-							aria-hidden="true">
-							<div class="modal-dialog">
-								<div class="modal-content">
-									<div class="modal-header">
-										<h5 class="modal-title" id="basketModalLabel">Корзина</h5>
-										<button type="button" class="btn-close" data-bs-dismiss="modal"
-											aria-label="Close"></button>
-									</div>
-									<div class="modal-body">...
-									</div>
-									<div class="modal-footer">
-										<button type="button" class="btn btn-modal">Купить</button>
-									</div>
-								</div>
-							</div>
+						<div>
+							<ul class="contact-mobile m-2 fw-bolder">
+								<li class="mt-2"><a href="#">пр-т Гагарина 41/2, г.Харьков</a></li>
+								<li class="mt-3"><a href="mailto:vfon@ukr.net">vfon@ukr.net</a></li>
+								<li class="mt-3">
+									<a href="tel:380965699322">+380 (96) 569-93-22</a>
+									<a href="tel:380630516376">+380 (63) 051-63-76</a>
+									<a href="tel:380958004995">+380 (95) 800-49-95</a>
+								</li>
+								<li class="mt-3">
+									Пн-пт 9:00-18:00 <br>
+									Сб 10:00-16:00 <br>
+									Вс выходной
+								</li>
+							</ul>
 						</div>
-					</li>
-					<li class="ms-3 pt-1">
-						<button type="button" class="btn px-0" data-bs-toggle="modal" data-bs-target="#singIn">
-							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-								class="bi bi-door-closed" viewBox="0 0 16 16">
-								<path
-									d="M3 2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v13h1.5a.5.5 0 0 1 0 1h-13a.5.5 0 0 1 0-1H3V2zm1 13h8V2H4v13z" />
-								<path d="M9 9a1 1 0 1 0 2 0 1 1 0 0 0-2 0z" />
-							</svg>
-						</button>
-						<div class="modal fade" id="singIn" tabindex="-1" aria-labelledby="singInModalLabel"
-							aria-hidden="true">
-							<div class="modal-dialog">
-								<div class="modal-content">
-									<div class="modal-header">
-										<h5 class="modal-title" id="singInModalLabel">Вход</h5>
-										<button type="button" class="btn-close" data-bs-dismiss="modal"
-											aria-label="Close"></button>
-									</div>
-									<div class="modal-body modal-sing-in">
-										<input type="tel" placeholder="Ваш номер телефона" tabindex="1">
-										<input type="password" placeholder="Ваш пароль" tabindex="2">
-										<p>Если у вас еще нет аккаунта нажмите <a href="#">здесь</a></p>
-									</div>
-									<div class="modal-footer">
-										<button type="button" class="btn btn-modal">Войти</button>
-									</div>
-								</div>
-							</div>
-						</div>
-					</li>
-				</ul>
-				<div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
-					<div class="accordion" id="accordionPanelsStayOpenExample">
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="panelsStayOpen-headingOne">
-								<button class="accordion-button" type="button" data-bs-toggle="collapse"
-									data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
-									aria-controls="panelsStayOpen-collapseOne">
-									Каталог Товаров
-								</button>
-							</h2>
-							<div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse"
-								aria-labelledby="panelsStayOpen-headingOne">
-								<div class="accordion-body">
-									<ul>
-										<li><a class="dropdown-item" href="#">Маникюрные педикюрные принадлежности</a></li>
-										<li><a class="dropdown-item" href="#">Гель-лаки и наращивание ногтей</a></li>
-										<li><a class="dropdown-item" href="#">Парикмахерские инструменты и техника</a></li>
-										<li><a class="dropdown-item" href="#">Восковая депиляция и парафинотерапия</a></li>
-										<li><a class="dropdown-item" href="#">Наращивание ресниц, краска для бровей и ресниц</a>
-										</li>
-										<li><a class="dropdown-item" href="#">Спецодежда и одноразовые принадлежности</a></li>
-										<li><a class="dropdown-item" href="#">Оборудование для салонов</a></li>
-										<li><a class="dropdown-item" href="#">Стерилизация инструментов</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-									data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-									aria-controls="panelsStayOpen-collapseTwo">
-									Покупателям
-								</button>
-							</h2>
-							<div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
-								aria-labelledby="panelsStayOpen-headingTwo">
-								<div class="accordion-body">
-									<ul>
-										<li><a class="dropdown-item" href="#">Доставка и опалата</a></li>
-										<li><a class="dropdown-item" href="#">Сервис и гарантия</a></li>
-										<li><a class="dropdown-item" href="#">Программа лояльности</a></li>
-										<li><a class="dropdown-item" href="#">О нас</a></li>
-										<li><a class="dropdown-item" href="#">Контакты</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div>
-						<ul class="contact-mobile m-2 fw-bolder">
-							<li class="mt-2"><a href="#">пр-т Гагарина 41/2, <br>
-									г.Харьков</a></li>
-							<li class="mt-2"><a href="mailto:vfon@ukr.net">vfon@ukr.net</a></li>
-							<li class="mt-2">
-								<a href="tel:380965699322">+380 (96) 569-93-22</a>
-								<a href="tel:380630516376">+380 (63) 051-63-76</a>
-								<a href="tel:380958004995">+380 (95) 800-49-95</a>
-							</li>
-							<li class="mt-2">
-								Пн-пт 9:00-18:00 <br>
-								Сб 10:00-16:00 <br>
-								Вс выходной
-							</li>
+						<ul class="social-icon-phone d-flex my-2 mx-0 p-0 mt-3">
+							<li class="me-2"><a href="#">
+									<img src="image/social-icons/instagram-pink.png" alt="inst">
+								</a></li>
+							<li class="me-2"><a href="#">
+									<img src="image/social-icons/google-pink.png" alt="google">
+								</a></li>
+							<li class="me-0"><a href="#">
+									<img src="image/social-icons/facebook-pink.png" alt="fb">
+								</a></li>
 						</ul>
 					</div>
-					<ul class="social-icon-phone d-flex my-2 mx-0 p-0">
-						<li class="me-2"><a href="#">
-								<img src="image/social-icons/instagram-pink.png" alt="inst">
-							</a></li>
-						<li class="me-2"><a href="#">
-								<img src="image/social-icons/google-pink.png" alt="google">
-							</a></li>
-						<li class="me-0"><a href="#">
-								<img src="image/social-icons/facebook-pink.png" alt="fb">
-							</a></li>
+				</div>
+			</nav>
+			<nav class="py-2 d-none d-lg-block">
+				<div class="container d-flex flex-nowrap justify-content-between">
+					<ul class="nav d-none d-lg-flex">
+						<li class="nav-item"><a href="#" class="nav-link px-2" aria-current="page">Доставка и оплата</a></li>
+						<li class="nav-item"><a href="#" class="nav-link px-2">Сервис и гарантия</a></li>
+						<li class="nav-item"><a href="#" class="nav-link px-2">Программа лояльности</a></li>
+						<li class="nav-item"><a href="#" class="nav-link px-2">О нас</a></li>
+						<li class="nav-item"><a href="#" class="nav-link px-2">Контакты</a></li>
+					</ul>
+					<ul class="nav m-auto m-lg-0 sing-in">
+						<li class="nav-item"><a href="#" class="nav-link login px-3">Вход</a></li>
+						<li class="nav-item"><a href="#" class="nav-link registration px-3">Регистрация</a></li>
 					</ul>
 				</div>
-			</div>
-		</nav>
-		<nav class="py-2 d-none d-lg-block">
-			<div class="container d-flex flex-nowrap justify-content-between">
-				<ul class="nav d-none d-lg-flex">
-					<li class="nav-item"><a href="#" class="nav-link px-2" aria-current="page">Доставка и оплата</a></li>
-					<li class="nav-item"><a href="#" class="nav-link px-2">Сервис и гарантия</a></li>
-					<li class="nav-item"><a href="#" class="nav-link px-2">Программа лояльности</a></li>
-					<li class="nav-item"><a href="#" class="nav-link px-2">О нас</a></li>
-					<li class="nav-item"><a href="#" class="nav-link px-2">Контакты</a></li>
-				</ul>
-				<ul class="nav m-auto m-lg-0 sing-in">
-					<li class="nav-item"><a href="#" class="nav-link login px-3">Вход</a></li>
-					<li class="nav-item"><a href="#" class="nav-link registration px-3">Регистрация</a></li>
-				</ul>
-			</div>
-		</nav>
-		<header class="mt-3  pb-3 d-none d-lg-block">
-			<div class="container d-lg-flex flex-nowrap justify-content-between">
-				<div class="p-1 text-center text-lg-start mb-2 mb-lg-0">
-					<a href="#" class="text-decoration-none">
-						<span class="logo">мАСТЕР</span>
-						<span class="under-logo">Все для салонов красоты</span>
-					</a>
+			</nav>
+			<div class="mt-3  pb-3 d-none d-lg-block">
+				<div class="container d-lg-flex flex-nowrap justify-content-between">
+					<div class="p-1 text-center text-lg-start mb-2 mb-lg-0">
+						<a href="#" class="text-decoration-none">
+							<span class="logo">мАСТЕР</span>
+							<span class="under-logo">Все для салонов красоты</span>
+						</a>
+					</div>
+					<div class="p-1 text-center mb-2 mb-lg-0">
+						<a class="marker ps-5" href="#">Закладки</a>
+						<a class="basket ps-5" href="#">Корзина</a>
+					</div>
 				</div>
-				<div class="p-1 text-center mb-2 mb-lg-0">
-					<a class="marker ps-5" href="#">Закладки</a>
-					<a class="basket ps-5" href="#">Корзина</a>
-				</div>
-			</div>
-			<div class="container d-flex flex-wrap-reverse flex-md-nowrap  justify-content-between header-bottom">
-				<div class="dropdown m-auto m-lg-0">
-					<button class="btn dropdown-btn dropdown-toggle" type="button" id="dropdownMenuButton"
-						data-bs-toggle="dropdown" aria-expanded="false">
-						Каталог товаров
-					</button>
-					<ul class="dropdown-menu mt-3" aria-labelledby="dropdownMenuButton">
-						<li><a class="dropdown-item" href="#">Маникюрные педикюрные принадлежности</a></li>
-						<li><a class="dropdown-item" href="#">Гель-лаки и наращивание ногтей</a></li>
-						<li><a class="dropdown-item" href="#">Парикмахерские инструменты и техника</a></li>
-						<li><a class="dropdown-item" href="#">Восковая депиляция и парафинотерапия</a></li>
-						<li><a class="dropdown-item" href="#">Наращивание ресниц, краска для бровей и ресниц</a></li>
-						<li><a class="dropdown-item" href="#">Спецодежда и одноразовые принадлежности</a></li>
-						<li><a class="dropdown-item" href="#">Оборудование для салонов</a></li>
-						<li><a class="dropdown-item" href="#">Стерилизация инструментов</a></li>
-					</ul>
-				</div>
-				<form class="input-group my-3 m-lg-0 ms-lg-5 text-center">
-					<input type="search" class="form-control" placeholder="Я ищу" aria-label="Recipient's username"
-						aria-describedby="button-addon2">
-					<button class="btn btn-outline-secondary search-btn" type="button" id="button-addon2"></button>
-				</form>
-				<div class="phone-number d-none d-lg-block text-end col-2">
-					<a href="tel:380965699322">+38 (096) 569 93 22;</a>
-					<a href="tel:380965699322">+38 (096) 569 93 22.</a>
+				<div class="container d-flex flex-wrap-reverse flex-md-nowrap  justify-content-between header-bottom">
+					<div class="dropdown m-auto m-lg-0">
+						<button class="btn dropdown-btn dropdown-toggle" type="button" id="dropdownMenuButton"
+							data-bs-toggle="dropdown" aria-expanded="false">
+							Каталог товаров
+						</button>
+						<ul class="dropdown-menu mt-3" aria-labelledby="dropdownMenuButton">
+							<li><a class="dropdown-item" href="#">Маникюрные педикюрные принадлежности</a></li>
+							<li><a class="dropdown-item" href="#">Гель-лаки и наращивание ногтей</a></li>
+							<li><a class="dropdown-item" href="#">Парикмахерские инструменты и техника</a></li>
+							<li><a class="dropdown-item" href="#">Восковая депиляция и парафинотерапия</a></li>
+							<li><a class="dropdown-item" href="#">Наращивание ресниц, краска для бровей и ресниц</a></li>
+							<li><a class="dropdown-item" href="#">Спецодежда и одноразовые принадлежности</a></li>
+							<li><a class="dropdown-item" href="#">Оборудование для салонов</a></li>
+							<li><a class="dropdown-item" href="#">Стерилизация инструментов</a></li>
+						</ul>
+					</div>
+					<form class="input-group my-3 m-lg-0 ms-lg-5 text-center">
+						<input type="search" class="form-control" placeholder="Я ищу" aria-label="Recipient's username"
+							aria-describedby="button-addon2">
+						<button class="btn btn-outline-secondary search-btn" type="button" id="button-addon2"></button>
+					</form>
+					<div class="phone-number d-none d-lg-block text-end col-2">
+						<a href="tel:380965699322">+38 (096) 569 93 22;</a>
+						<a href="tel:380965699322">+38 (096) 569 93 22.</a>
+					</div>
 				</div>
 			</div>
 		</header>
@@ -301,7 +303,8 @@
 			<div class="sale">
 				<div class="container">
 					<div class="d-md-flex justify-content-between">
-						<div class="col-md-7 py-5 px-0 me-md-4 mb-2 week-sale">
+						<div class="col-md-7 px-0 me-md-4 mb-2 week-sale"
+							style="background-image: url(image/sale/sale_img_1.jpg);">
 							<div class="text-start sale-text">
 								<a href="#">
 									акционное предложение
@@ -309,7 +312,8 @@
 								</a>
 							</div>
 						</div>
-						<div class="col-md mb-2 py-5 px-0 text-end biggest-sale">
+						<div class="col-md mb-2 px-0 text-end biggest-sale"
+							style="background-image: url(image/sale/sale_img_2.jpg);">
 							<div class=" text-end biggest-sale-text">
 								<p class="text-end sale-50"><span>50%</span> скидки на всю косметику</p>
 								<p class="text-end sale-spa">фирмы Spa</p>
@@ -322,136 +326,144 @@
 				<div class="container">
 					<h3 class="text-center mb-5"><span>Хиты продаж</span></h3>
 					<div class="d-lg-flex justify-content-between slider-slick">
-						<div class="card px-3 py-2 mt-2 py-lg-4 me-lg-3">
-							<h4 class="card-title text-center px-1"><a href="#">Масло после депиляции с лавандой и витамином Е
-									"DELICA"</a>
-							</h4>
-							<div class="card-img-wrapper">
-								<a href="#"><img src="image/bestsellers/scisors.png" alt="scisors"></a>
-							</div>
-							<div class="rating-area d-block m-auto">
-								<input type="radio" id="star-5" name="rating" value="5">
-								<label for="star-5" title="Оценка «5»"></label>
-
-								<input type="radio" id="star-4" name="rating" value="4">
-								<label for="star-4" title="Оценка «4»"></label>
-
-								<input type="radio" id="star-3" name="rating" value="3">
-								<label for="star-3" title="Оценка «3»"></label>
-
-								<input type="radio" id="star-2" name="rating" value="2">
-								<label for="star-2" title="Оценка «2»"></label>
-
-								<input type="radio" id="star-1" name="rating" value="1">
-								<label for="star-1" title="Оценка «1»"></label>
-							</div>
-							<div class="card-body p-0">
-								<p class="card-text text-center">180грн <span>215грн</span></p>
-								<form class="text-center d-lg-flex justify-content-between">
-									<label for="secondProduct">Кол-во
-										<input class="text-center" type="number" min="1" name="num" value="1" step="1"
-											id="secondProduct"></label>
-									<button class="btn btn-primary ms-5 ms-md-1 mt-md-1 card-btn" type="submit">купить</button>
-								</form>
-							</div>
-						</div>
-						<div class="card px-3 py-2 mt-2 py-lg-4 me-lg-3">
-							<h4 class="card-title text-center px-1"><a href="#">Масло после депиляции с лавандой и витамином Е
-									"DELICA"</a>
-							</h4>
-							<div class="card-img-wrapper">
-								<a href="#"><img src="image/bestsellers/scisors.png" alt="scisors"></a>
-							</div>
-							<div class="rating-area d-block m-auto">
-								<input type="radio" id="star-5-2" name="rating" value="5">
-								<label for="star-5-2" title="Оценка «5»"></label>
-
-								<input type="radio" id="star-4-2" name="rating" value="4">
-								<label for="star-4-2" title="Оценка «4»"></label>
-
-								<input type="radio" id="star-3-2" name="rating" value="3">
-								<label for="star-3-2" title="Оценка «3»"></label>
-
-								<input type="radio" id="star-2-2" name="rating" value="2">
-								<label for="star-2-2" title="Оценка «2»"></label>
-
-								<input type="radio" id="star-1-2" name="rating" value="1">
-								<label for="star-1-2" title="Оценка «1»"></label>
-							</div>
-							<div class="card-body p-0">
-								<p class="card-text text-center">180грн <span>215грн</span></p>
-								<form class="text-center d-lg-flex justify-content-between">
-									<label for="thirdProduct">Кол-во
-										<input class="text-center" type="number" min="1" name="num" value="1" step="1"
-											id="thirdProduct"></label>
-									<button class="btn btn-primary ms-5 ms-md-1 mt-md-1 card-btn" type="submit">купить</button>
-								</form>
+						<div class="wrapper-card me-1">
+							<div class="card px-3 py-2 mt-2 py-lg-4 me-lg-3">
+								<h4 class="card-title text-center px-1"><a href="#">Масло после депиляции с лавандой и витамином Е
+										"DELICA"</a>
+								</h4>
+								<div class="card-img-wrapper">
+									<a href="#"><img src="image/bestsellers/scisors.png" alt="scisors"></a>
+								</div>
+								<div class="rating-area d-block m-auto">
+									<input type="radio" id="star-5" name="rating" value="5">
+									<label for="star-5" title="Оценка «5»"></label>
+	
+									<input type="radio" id="star-4" name="rating" value="4">
+									<label for="star-4" title="Оценка «4»"></label>
+	
+									<input type="radio" id="star-3" name="rating" value="3">
+									<label for="star-3" title="Оценка «3»"></label>
+	
+									<input type="radio" id="star-2" name="rating" value="2">
+									<label for="star-2" title="Оценка «2»"></label>
+	
+									<input type="radio" id="star-1" name="rating" value="1">
+									<label for="star-1" title="Оценка «1»"></label>
+								</div>
+								<div class="card-body p-0">
+									<p class="card-text text-center">180грн <span>215грн</span></p>
+									<form class="text-center d-lg-flex justify-content-between">
+										<label for="secondProduct">Кол-во
+											<input class="text-center" type="number" min="1" name="num" value="1" step="1"
+												id="secondProduct"></label>
+										<button class="btn btn-primary ms-5 ms-md-1 mt-md-1 card-btn" type="submit">купить</button>
+									</form>
+								</div>
 							</div>
 						</div>
-						<div class="card px-3 py-2 mt-2 py-lg-4 me-lg-3">
-							<h4 class="card-title text-center px-1"><a href="#">Масло после депиляции с лавандой и витамином Е
-									"DELICA"</a>
-							</h4>
-							<div class="card-img-wrapper">
-								<a href="#"><img src="image/bestsellers/wax.png" alt="wax"></a>
-							</div>
-							<div class="rating-area d-block m-auto">
-								<input type="radio" id="star-5-3" name="rating" value="5">
-								<label for="star-5-3" title="Оценка «5»"></label>
-
-								<input type="radio" id="star-4-3" name="rating" value="4">
-								<label for="star-4-3" title="Оценка «4»"></label>
-
-								<input type="radio" id="star-3-3" name="rating" value="3">
-								<label for="star-3-3" title="Оценка «3»"></label>
-
-								<input type="radio" id="star-2-3" name="rating" value="2">
-								<label for="star-2-3" title="Оценка «2»"></label>
-
-								<input type="radio" id="star-1-3" name="rating" value="1">
-								<label for="star-1-3" title="Оценка «1»"></label>
-							</div>
-							<div class="card-body p-0">
-								<p class="card-text text-center">180грн <span>215грн</span></p>
-								<form class="text-center d-lg-flex justify-content-between">
-									<label for="fourthProduct">Кол-во
-										<input class="text-center" type="number" min="1" name="num" value="1" step="1"
-											id="fourthProduct"></label>
-									<button class="btn btn-primary ms-5 ms-md-1 mt-md-1 card-btn" type="submit">купить</button>
-								</form>
+						<div class="wrapper-card me-1">
+							<div class="card px-3 py-2 mt-2 py-lg-4 me-lg-3">
+								<h4 class="card-title text-center px-1"><a href="#">Масло после депиляции с лавандой и витамином Е
+										"DELICA"</a>
+								</h4>
+								<div class="card-img-wrapper">
+									<a href="#"><img src="image/bestsellers/scisors.png" alt="scisors"></a>
+								</div>
+								<div class="rating-area d-block m-auto">
+									<input type="radio" id="star-5-2" name="rating" value="5">
+									<label for="star-5-2" title="Оценка «5»"></label>
+	
+									<input type="radio" id="star-4-2" name="rating" value="4">
+									<label for="star-4-2" title="Оценка «4»"></label>
+	
+									<input type="radio" id="star-3-2" name="rating" value="3">
+									<label for="star-3-2" title="Оценка «3»"></label>
+	
+									<input type="radio" id="star-2-2" name="rating" value="2">
+									<label for="star-2-2" title="Оценка «2»"></label>
+	
+									<input type="radio" id="star-1-2" name="rating" value="1">
+									<label for="star-1-2" title="Оценка «1»"></label>
+								</div>
+								<div class="card-body p-0">
+									<p class="card-text text-center">180грн <span>215грн</span></p>
+									<form class="text-center d-lg-flex justify-content-between">
+										<label for="thirdProduct">Кол-во
+											<input class="text-center" type="number" min="1" name="num" value="1" step="1"
+												id="thirdProduct"></label>
+										<button class="btn btn-primary ms-5 ms-md-1 mt-md-1 card-btn" type="submit">купить</button>
+									</form>
+								</div>
 							</div>
 						</div>
-						<div class="card px-3 py-2 mt-2 py-lg-4 me-lg-3">
-							<h4 class="card-title text-center px-1"><a href="#">Масло после депиляции с лавандой и витамином Е
-									"DELICA"</a>
-							</h4>
-							<div class="card-img-wrapper">
-								<a href="#"><img src="image/bestsellers/sterilizer.png" alt="sterilizer"></a>
+						<div class="wrapper-card me-1"> 
+							<div class="card px-3 py-2 mt-2 py-lg-4 me-lg-3">
+								<h4 class="card-title text-center px-1"><a href="#">Масло после депиляции с лавандой и витамином Е
+										"DELICA"</a>
+								</h4>
+								<div class="card-img-wrapper">
+									<a href="#"><img src="image/bestsellers/wax.png" alt="wax"></a>
+								</div>
+								<div class="rating-area d-block m-auto">
+									<input type="radio" id="star-5-3" name="rating" value="5">
+									<label for="star-5-3" title="Оценка «5»"></label>
+	
+									<input type="radio" id="star-4-3" name="rating" value="4">
+									<label for="star-4-3" title="Оценка «4»"></label>
+	
+									<input type="radio" id="star-3-3" name="rating" value="3">
+									<label for="star-3-3" title="Оценка «3»"></label>
+	
+									<input type="radio" id="star-2-3" name="rating" value="2">
+									<label for="star-2-3" title="Оценка «2»"></label>
+	
+									<input type="radio" id="star-1-3" name="rating" value="1">
+									<label for="star-1-3" title="Оценка «1»"></label>
+								</div>
+								<div class="card-body p-0">
+									<p class="card-text text-center">180грн <span>215грн</span></p>
+									<form class="text-center d-lg-flex justify-content-between">
+										<label for="fourthProduct">Кол-во
+											<input class="text-center" type="number" min="1" name="num" value="1" step="1"
+												id="fourthProduct"></label>
+										<button class="btn btn-primary ms-5 ms-md-1 mt-md-1 card-btn" type="submit">купить</button>
+									</form>
+								</div>
 							</div>
-							<div class="rating-area d-block m-auto">
-								<input type="radio" id="star-5-4" name="rating" value="5">
-								<label for="star-5-4" title="Оценка «5»"></label>
-
-								<input type="radio" id="star-4-4" name="rating" value="4">
-								<label for="star-4-4" title="Оценка «4»"></label>
-
-								<input type="radio" id="star-3-4" name="rating" value="3">
-								<label for="star-3-4" title="Оценка «3»"></label>
-
-								<input type="radio" id="star-2-4" name="rating" value="2">
-								<label for="star-2-4" title="Оценка «2»"></label>
-
-								<input type="radio" id="star-1-4" name="rating" value="1">
-								<label for="star-1-4" title="Оценка «1»"></label>
-							</div>
-							<div class="card-body p-0">
-								<p class="card-text text-center">180грн <span>215грн</span></p>
-								<form class="text-center d-lg-flex justify-content-between">
-									<label for="firstProduct">Кол-во
-										<input class="text-center" type="number" min="1" name="num" value="1" step="1"
-											id="firstProduct"></label>
-									<button class="btn btn-primary ms-5 ms-md-1 mt-md-1 card-btn" type="submit">купить</button>
-								</form>
+						</div>
+						<div class="wrapper-card">
+							<div class="card px-3 py-2 mt-2 py-lg-4">
+								<h4 class="card-title text-center px-1"><a href="#">Масло после депиляции с лавандой и витамином Е
+										"DELICA"</a>
+								</h4>
+								<div class="card-img-wrapper">
+									<a href="#"><img src="image/bestsellers/sterilizer.png" alt="sterilizer"></a>
+								</div>
+								<div class="rating-area d-block m-auto">
+									<input type="radio" id="star-5-4" name="rating" value="5">
+									<label for="star-5-4" title="Оценка «5»"></label>
+	
+									<input type="radio" id="star-4-4" name="rating" value="4">
+									<label for="star-4-4" title="Оценка «4»"></label>
+	
+									<input type="radio" id="star-3-4" name="rating" value="3">
+									<label for="star-3-4" title="Оценка «3»"></label>
+	
+									<input type="radio" id="star-2-4" name="rating" value="2">
+									<label for="star-2-4" title="Оценка «2»"></label>
+	
+									<input type="radio" id="star-1-4" name="rating" value="1">
+									<label for="star-1-4" title="Оценка «1»"></label>
+								</div>
+								<div class="card-body p-0">
+									<p class="card-text text-center">180грн <span>215грн</span></p>
+									<form class="text-center d-lg-flex justify-content-between">
+										<label for="firstProduct">Кол-во
+											<input class="text-center" type="number" min="1" name="num" value="1" step="1"
+												id="firstProduct"></label>
+										<button class="btn btn-primary ms-5 ms-md-1 mt-md-1 card-btn" type="submit">купить</button>
+									</form>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -461,136 +473,144 @@
 				<div class="container">
 					<h3 class="text-center mb-5 novelties-title"><span>Новинки</span></h3>
 					<div class="d-lg-flex justify-content-between slider-slick">
-						<div class="card px-3 py-2 mt-2 py-lg-4 me-lg-3">
-							<h4 class="card-title text-center px-1"><a href="#">Масло после депиляции с лавандой и витамином Е
-									"DELICA"</a>
-							</h4>
-							<div class="card-img-wrapper">
-								<a href="#"><img src="image/bestsellers/scisors.png" alt="scisors"></a>
-							</div>
-							<div class="rating-area d-block m-auto">
-								<input type="radio" id="novelties-5" name="rating" value="5">
-								<label for="novelties-5" title="Оценка «5»"></label>
-
-								<input type="radio" id="novelties-4" name="rating" value="4">
-								<label for="novelties-4" title="Оценка «4»"></label>
-
-								<input type="radio" id="novelties-3" name="rating" value="3">
-								<label for="novelties-3" title="Оценка «3»"></label>
-
-								<input type="radio" id="novelties-2" name="rating" value="2">
-								<label for="novelties-2" title="Оценка «2»"></label>
-
-								<input type="radio" id="novelties-1" name="rating" value="1">
-								<label for="novelties-1" title="Оценка «1»"></label>
-							</div>
-							<div class="card-body p-0">
-								<p class="card-text text-center">180грн <span>215грн</span></p>
-								<form class="text-center d-lg-flex justify-content-between">
-									<label for="secondProductNovelties">Кол-во
-										<input class="text-center" type="number" min="1" name="num" value="1" step="1"
-											id="secondProductNovelties"></label>
-									<button class="btn btn-primary ms-5 ms-md-1 mt-md-1 card-btn" type="submit">купить</button>
-								</form>
-							</div>
-						</div>
-						<div class="card px-3 py-2 mt-2 py-lg-4 me-lg-3">
-							<h4 class="card-title text-center px-1"><a href="#">Масло после депиляции с лавандой и витамином Е
-									"DELICA"</a>
-							</h4>
-							<div class="card-img-wrapper">
-								<a href="#"><img src="image/bestsellers/scisors.png" alt="scisors"></a>
-							</div>
-							<div class="rating-area d-block m-auto">
-								<input type="radio" id="novelties-5-2" name="rating" value="5n">
-								<label for="novelties-5-2" title="Оценка «5»"></label>
-
-								<input type="radio" id="novelties-4-2" name="rating" value="4n">
-								<label for="novelties-4-2" title="Оценка «4»"></label>
-
-								<input type="radio" id="novelties-3-2" name="rating" value="3n">
-								<label for="novelties-3-2" title="Оценка «3»"></label>
-
-								<input type="radio" id="novelties-2-2" name="rating" value="2n">
-								<label for="novelties-2-2" title="Оценка «2»"></label>
-
-								<input type="radio" id="novelties-1-2" name="rating" value="1n">
-								<label for="novelties-1-2" title="Оценка «1»"></label>
-							</div>
-							<div class="card-body p-0">
-								<p class="card-text text-center">180грн <span>215грн</span></p>
-								<form class="text-center d-lg-flex justify-content-between">
-									<label for="thirdProductNovelties">Кол-во
-										<input class="text-center" type="number" min="1" name="num" value="1" step="1"
-											id="thirdProductNovelties"></label>
-									<button class="btn btn-primary ms-5 ms-md-1 mt-md-1 card-btn" type="submit">купить</button>
-								</form>
+						<div  class="wrapper-card me-1">
+							<div class="card px-3 py-2 mt-2 py-lg-4 me-lg-3">
+								<h4 class="card-title text-center px-1"><a href="#">Масло после депиляции с лавандой и витамином Е
+										"DELICA"</a>
+								</h4>
+								<div class="card-img-wrapper">
+									<a href="#"><img src="image/bestsellers/scisors.png" alt="scisors"></a>
+								</div>
+								<div class="rating-area d-block m-auto">
+									<input type="radio" id="novelties-5" name="rating" value="5">
+									<label for="novelties-5" title="Оценка «5»"></label>
+	
+									<input type="radio" id="novelties-4" name="rating" value="4">
+									<label for="novelties-4" title="Оценка «4»"></label>
+	
+									<input type="radio" id="novelties-3" name="rating" value="3">
+									<label for="novelties-3" title="Оценка «3»"></label>
+	
+									<input type="radio" id="novelties-2" name="rating" value="2">
+									<label for="novelties-2" title="Оценка «2»"></label>
+	
+									<input type="radio" id="novelties-1" name="rating" value="1">
+									<label for="novelties-1" title="Оценка «1»"></label>
+								</div>
+								<div class="card-body p-0">
+									<p class="card-text text-center">180грн <span>215грн</span></p>
+									<form class="text-center d-lg-flex justify-content-between">
+										<label for="secondProductNovelties">Кол-во
+											<input class="text-center" type="number" min="1" name="num" value="1" step="1"
+												id="secondProductNovelties"></label>
+										<button class="btn btn-primary ms-5 ms-md-1 mt-md-1 card-btn" type="submit">купить</button>
+									</form>
+								</div>
 							</div>
 						</div>
-						<div class="card px-3 py-2 mt-2 py-lg-4 me-lg-3">
-							<h4 class="card-title text-center px-1"><a href="#">Масло после депиляции с лавандой и витамином Е
-									"DELICA"</a>
-							</h4>
-							<div class="card-img-wrapper">
-								<a href="#"><img src="image/bestsellers/wax.png" alt="wax"></a>
-							</div>
-							<div class="rating-area d-block m-auto">
-								<input type="radio" id="novelties-5-3" name="rating" value="5">
-								<label for="novelties-5-3" title="Оценка «5»"></label>
-
-								<input type="radio" id="novelties-4-3" name="rating" value="4">
-								<label for="novelties-4-3" title="Оценка «4»"></label>
-
-								<input type="radio" id="novelties-3-3" name="rating" value="3">
-								<label for="novelties-3-3" title="Оценка «3»"></label>
-
-								<input type="radio" id="novelties-2-3" name="rating" value="2">
-								<label for="novelties-2-3" title="Оценка «2»"></label>
-
-								<input type="radio" id="novelties-1-3" name="rating" value="1">
-								<label for="novelties-2-3" title="Оценка «1»"></label>
-							</div>
-							<div class="card-body p-0">
-								<p class="card-text text-center">180грн <span>215грн</span></p>
-								<form class="text-center d-lg-flex justify-content-between">
-									<label for="fourthProductNovelties">Кол-во
-										<input class="text-center" type="number" min="1" name="num" value="1" step="1"
-											id="fourthProductNovelties"></label>
-									<button class="btn btn-primary ms-5 ms-md-1 mt-md-1 card-btn" type="submit">купить</button>
-								</form>
+						<div class="wrapper-card me-1">
+							<div class="card px-3 py-2 mt-2 py-lg-4 me-lg-3">
+								<h4 class="card-title text-center px-1"><a href="#">Масло после депиляции с лавандой и витамином Е
+										"DELICA"</a>
+								</h4>
+								<div class="card-img-wrapper">
+									<a href="#"><img src="image/bestsellers/scisors.png" alt="scisors"></a>
+								</div>
+								<div class="rating-area d-block m-auto">
+									<input type="radio" id="novelties-5-2" name="rating" value="5n">
+									<label for="novelties-5-2" title="Оценка «5»"></label>
+	
+									<input type="radio" id="novelties-4-2" name="rating" value="4n">
+									<label for="novelties-4-2" title="Оценка «4»"></label>
+	
+									<input type="radio" id="novelties-3-2" name="rating" value="3n">
+									<label for="novelties-3-2" title="Оценка «3»"></label>
+	
+									<input type="radio" id="novelties-2-2" name="rating" value="2n">
+									<label for="novelties-2-2" title="Оценка «2»"></label>
+	
+									<input type="radio" id="novelties-1-2" name="rating" value="1n">
+									<label for="novelties-1-2" title="Оценка «1»"></label>
+								</div>
+								<div class="card-body p-0">
+									<p class="card-text text-center">180грн <span>215грн</span></p>
+									<form class="text-center d-lg-flex justify-content-between">
+										<label for="thirdProductNovelties">Кол-во
+											<input class="text-center" type="number" min="1" name="num" value="1" step="1"
+												id="thirdProductNovelties"></label>
+										<button class="btn btn-primary ms-5 ms-md-1 mt-md-1 card-btn" type="submit">купить</button>
+									</form>
+								</div>
 							</div>
 						</div>
-						<div class="card px-3 py-2 mt-2 py-lg-4 me-lg-3">
-							<h4 class="card-title text-center px-1"><a href="#">Масло после депиляции с лавандой и витамином Е
-									"DELICA"</a>
-							</h4>
-							<div class="card-img-wrapper">
-								<a href="#"><img src="image/bestsellers/sterilizer.png" alt="sterilizer"></a>
+						<div class="wrapper-card me-1">
+							<div class="card px-3 py-2 mt-2 py-lg-4 me-lg-3">
+								<h4 class="card-title text-center px-1"><a href="#">Масло после депиляции с лавандой и витамином Е
+										"DELICA"</a>
+								</h4>
+								<div class="card-img-wrapper">
+									<a href="#"><img src="image/bestsellers/wax.png" alt="wax"></a>
+								</div>
+								<div class="rating-area d-block m-auto">
+									<input type="radio" id="novelties-5-3" name="rating" value="5">
+									<label for="novelties-5-3" title="Оценка «5»"></label>
+	
+									<input type="radio" id="novelties-4-3" name="rating" value="4">
+									<label for="novelties-4-3" title="Оценка «4»"></label>
+	
+									<input type="radio" id="novelties-3-3" name="rating" value="3">
+									<label for="novelties-3-3" title="Оценка «3»"></label>
+	
+									<input type="radio" id="novelties-2-3" name="rating" value="2">
+									<label for="novelties-2-3" title="Оценка «2»"></label>
+	
+									<input type="radio" id="novelties-1-3" name="rating" value="1">
+									<label for="novelties-2-3" title="Оценка «1»"></label>
+								</div>
+								<div class="card-body p-0">
+									<p class="card-text text-center">180грн <span>215грн</span></p>
+									<form class="text-center d-lg-flex justify-content-between">
+										<label for="fourthProductNovelties">Кол-во
+											<input class="text-center" type="number" min="1" name="num" value="1" step="1"
+												id="fourthProductNovelties"></label>
+										<button class="btn btn-primary ms-5 ms-md-1 mt-md-1 card-btn" type="submit">купить</button>
+									</form>
+								</div>
 							</div>
-							<div class="rating-area d-block m-auto">
-								<input type="radio" id="novelties-5-4" name="rating" value="5">
-								<label for="novelties-5-4" title="Оценка «5»"></label>
-
-								<input type="radio" id="novelties-4-4" name="rating" value="4">
-								<label for="novelties-4-4" title="Оценка «4»"></label>
-
-								<input type="radio" id="novelties-3-4" name="rating" value="3">
-								<label for="novelties-3-4" title="Оценка «3»"></label>
-
-								<input type="radio" id="novelties-2-4" name="rating" value="2">
-								<label for="novelties-2-4" title="Оценка «2»"></label>
-
-								<input type="radio" id="novelties-1-4" name="rating" value="1">
-								<label for="novelties-1-4" title="Оценка «1»"></label>
-							</div>
-							<div class="card-body p-0">
-								<p class="card-text text-center">180грн <span>215грн</span></p>
-								<form class="text-center d-lg-flex justify-content-between">
-									<label for="firstProductNovelties">Кол-во
-										<input class="text-center" type="number" min="1" name="num" value="1" step="1"
-											id="firstProductNovelties"></label>
-									<button class="btn btn-primary ms-5 ms-md-1 mt-md-1 card-btn" type="submit">купить</button>
-								</form>
+						</div>
+						<div class="wrapper-card">
+							<div class="card px-3 py-2 mt-2 py-lg-4">
+								<h4 class="card-title text-center px-1"><a href="#">Масло после депиляции с лавандой и витамином Е
+										"DELICA"</a>
+								</h4>
+								<div class="card-img-wrapper">
+									<a href="#"><img src="image/bestsellers/sterilizer.png" alt="sterilizer"></a>
+								</div>
+								<div class="rating-area d-block m-auto">
+									<input type="radio" id="novelties-5-4" name="rating" value="5">
+									<label for="novelties-5-4" title="Оценка «5»"></label>
+	
+									<input type="radio" id="novelties-4-4" name="rating" value="4">
+									<label for="novelties-4-4" title="Оценка «4»"></label>
+	
+									<input type="radio" id="novelties-3-4" name="rating" value="3">
+									<label for="novelties-3-4" title="Оценка «3»"></label>
+	
+									<input type="radio" id="novelties-2-4" name="rating" value="2">
+									<label for="novelties-2-4" title="Оценка «2»"></label>
+	
+									<input type="radio" id="novelties-1-4" name="rating" value="1">
+									<label for="novelties-1-4" title="Оценка «1»"></label>
+								</div>
+								<div class="card-body p-0">
+									<p class="card-text text-center">180грн <span>215грн</span></p>
+									<form class="text-center d-lg-flex justify-content-between">
+										<label for="firstProductNovelties">Кол-во
+											<input class="text-center" type="number" min="1" name="num" value="1" step="1"
+												id="firstProductNovelties"></label>
+										<button class="btn btn-primary ms-5 ms-md-1 mt-md-1 card-btn" type="submit">купить</button>
+									</form>
+								</div>
 							</div>
 						</div>
 					</div>
