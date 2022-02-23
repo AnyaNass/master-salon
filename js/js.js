@@ -1,4 +1,8 @@
-$(".btn").click(function(){
+jQuery('.navbar-toggler').click(function(){
+	jQuery('body').toggleClass('is-menu-open')
+ })
+
+$(".btn").click(function () {
 	$(".input").toggleClass("active").focus;
 	$(this).toggleClass("animate");
 	$(".input").val("");
@@ -13,34 +17,32 @@ $('.slider-slick').slick({
 	slidesToShow: 1,
 	slidesToScroll: 1,
 	responsive: [
+		{
+			breakpoint: 480,
+			settings: {
+			  slidesToShow: 2,
+				slidesToScroll: 2,
+				infinite: true,
+			}
+		},
+		{
+			breakpoint: 768,
+			settings: {
+			  slidesToShow: 3,
+				slidesToScroll: 3,
+				infinite: true,
+			}
+		 },
 	  {
-		 breakpoint: 992,
+		 breakpoint: 1200,
 		 settings: {
 			slidesToShow: 4,
 			slidesToScroll: 4,
-			infinite: true,
-			// breakpoint: 992,
-         // settings: "unslick"
 		 }
 	  },
-	  {
-		 breakpoint: 768,
-		 settings: {
-			slidesToShow: 3,
-			 slidesToScroll: 3,
-			 infinite: true,
-		 }
-	  },
-	  {
-		 breakpoint: 480,
-		 settings: {
-			slidesToShow: 2,
-			 slidesToScroll: 2,
-			 infinite: true,
-		 }
-	  }
 	]
  });
+
 
 var myInput = document.getElementById('myBasket')
 myBasket.addEventListener('shown.bs.modal', function () {

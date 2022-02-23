@@ -15,6 +15,9 @@
 body{
 	font-family: "Century Gothic";
 }
+.is-menu-open{
+	overflow: hidden;
+}
 img{
 	object-fit: cover;
 	width: 100%;
@@ -253,7 +256,7 @@ main{
 	background-color: #b992d9;
 	opacity: 0.5;
 	height: 100%;
-	width: 30%;
+	width: 65%;
 	top: 0;
 	right: 0;
 	border-top-left-radius:  20% 55% ;
@@ -261,9 +264,9 @@ main{
 }
 h1{
 	display: inline-block;
-	width: 30%;
+	width: 70%;
 	padding: 60px 30px 60px 0;
-	font-size: 42px;
+	font-size: 36px;
 	font-weight: 400;
 	text-transform: uppercase;
 	color: #fffeff;
@@ -579,12 +582,14 @@ input[type="number"] {
 	position: absolute;
 	bottom: 0;
 	left: 0;
+	display: none;
 }
 .about-us::after{
 	content: url('../image/about-us/White\ Vase.png');
 	position: absolute;
 	right: 0;
 	top: 10%;
+	display: none;
 }
 .about-us-title::before{
 	content: url("../image/about-us/lotos.png");
@@ -727,7 +732,20 @@ h5 span::after{
 .footer-bottom-content p{
 	color: #5b5da8;
 }
+
+@media (min-width:472px){
+	.banner::after{
+		width: 55%;
+	}
+}
 @media (min-width:768px) {
+	h1{
+		width: 50%;
+		font-size: 42px;
+	}
+	.banner::after{
+		width: 45%;
+	}
 	.feedback-slider{
 		width: 40%;
 	}
@@ -747,35 +765,21 @@ h5 span::after{
 		margin-top: 80px;
 	 }
 }
-@media (max-width:991px){
+@media (min-width:992px){
 	h1{
-		font-size: 30px;
-		width: 70%;
+		width: 30%;
+		font-size: 42px;
 	}
 	.banner::after{
-		width: 65%;
+		width: 30%;
 	}
-}
-@media (max-width:767px){
 	.about-us::before{
-		display: none;
+		display: block;
 	}
 	.about-us::after{
-		display: none;
-	}
-	.footer-bottom{
-		background-color: #765598;	}
-	h1{
-		font-size: 30px;
-		width: 75%;
-	}
-	.banner::after{
-		width: 65%;
-	}
-	.footer-bottom-content p{
-		color: #5b5da8;
-		color: #fff;
+		display: block;
 	}
 }
+
 
 
